@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Alberto Manfrinati's resume",
+  "main": "index.js",
+  "keywords": [
+    "resume",
+    "cv",
+    "jsonresume"
+  ],
+  "scripts": {
+    "init": "resumed init",
+    "start": "resumed --theme jsonresume-theme-elegant"
+  },
+  "author": "Alberto Manfrinati",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "resumed": "^6.0.0"
+  }
+}
