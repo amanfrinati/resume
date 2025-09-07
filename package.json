@@ -1,15 +1,14 @@
 {
   "name": "resume",
   "version": "1.0.0",
+  "type": "module",
   "description": "Alberto Manfrinati's resume",
-  "main": "index.js",
   "keywords": [
     "resume",
     "cv",
     "jsonresume"
   ],
   "scripts": {
-    "init": "resumed init",
     "start": "resumed --theme jsonresume-theme-elegant"
   },
   "author": "Alberto Manfrinati",
